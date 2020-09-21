@@ -1,40 +1,47 @@
+#main {
+    background-image: url('images/tile.jpg');
+    background-size: cover;
+    height: 100vh;
+}
 
-
-#photo-info{
-    color: white;
+#photo-info {
+	color: white;
 }
 
 .nested {
-    margin: auto;
-    display: grid;
-    grid-template-columns: 30% 70% ;
-    grid-template-rows: 50% 50%;
-    grid-template-areas: 'top top' 
-    'nav video';
-    border: 10px solid pink;
-    background-image: url('bluewood.jpg');
+	margin: auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 50% 50%;
+	grid-template-areas:
+		'top top'
+		'nav video';
+	border: 10px solid pink;
+	background-image: url('images/tile.jpg');
 }
 
 #heading {
-    grid-area: top;
-    color: white;
-    border: 2px solid green;
-    color: white;
+	grid-area: top;
+	color: white;
+	border: 2px solid green;
+	color: white;
+	font-size: 12px;
 }
 
 #navBar {
-    color: white;
-    grid-area: nav;
-    border: 2px solid purple;
-
+	color: white;
+	grid-area: nav;
+	font-size: 12px;
 }
 
 #project-video {
-    grid-area: video;
-    border: 2px solid blue;
-    color: white;
+	grid-area: video;
+	border: 2px solid blue;
+	color: white;
+	font-size: 12px;
 }
 a {
-    color: rgb(208, 198, 198);
-    text-decoration: none; 
+	color: rgb(208, 198, 198);
+	text-decoration: none;
 }
+
