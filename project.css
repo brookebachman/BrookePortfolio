@@ -11,16 +11,20 @@ html, body {
     text-align: center;
     width: 100vw;
     margin-left: 0px;
-    
     margin-bottom: 400px;
+    font-family: 'Hind Siliguri', sans-serif;
+    padding: 20px;
+   
 }
 
 #main-title {
-	color: white;
-	font-family: 'Ranchers', cursive;
+	color: rgb(46, 134, 181);
+	font-family: 'Hind Siliguri', sans-serif;
     font-size: 35px;
     text-align: center;
-    padding: 5px;
+   margin: 40px;
+    background-color: rgb(242, 203, 130);
+    opacity: 70%;
 
 }
 
@@ -28,6 +32,8 @@ html, body {
     font-size: 25px;
     border: 3px solid white;
     margin-bottom: 100px;
+    background-color: rgb(242, 203, 130);
+    opacity: 80%;
     
 }
 #desc {
@@ -35,29 +41,42 @@ html, body {
     font-weight: 200;
     border: 3px solid white;
     margin-bottom: 100px;
+    background-color: rgb(242, 203, 130);
+    opacity: 80%;
 }
 
 #tech {
     font-size: 18px;
     text-align: left;
     border: 3px solid white;
+    font-family: 'Hind Siliguri', sans-serif;
+    background-color: rgb(242, 203, 130);
+    opacity: 80%;
   
 }
 #types {
     border: 3px solid white;
     margin-bottom: 100px;
+    background-color: rgb(242, 203, 130);
+    opacity: 80%;
+}
+
+#tech-types {
+
 }
 #videos {
 	display: block;
-	padding-bottom: 18px;
-	color: white;
-	font-family: 'Ranchers', cursive;
+
+    color: white;
+    padding: 40px;
+	font-family: 'Hind Siliguri', sans-serif;
     font-size: 16px;
     margin-bottom: 100px;
 }
 #video {
     border: 3px solid white;
     margin-bottom: 100px;
+    margin: 10px;
 }
 
 #project-video {
@@ -67,7 +86,15 @@ html, body {
     font-size: 12px;
     margin-bottom: 50px;
 }
-
+#nav {
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
 @media (min-width: 800px) {
 	#videos {
 		display: grid;
@@ -76,6 +103,6 @@ html, body {
 		color: white;
 		height: 100vh;
 		margin: auto;
-		font-family: 'Ranchers', cursive;
+		font-family: 'Hind Siliguri', sans-serif;
 	}
 }
