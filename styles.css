@@ -28,24 +28,22 @@ html, body {
 
 #bio-body {
     font-size: 15px;
-    background-color: rgb(242, 203, 130);
-    opacity: 75%;
+    background-color: rgb(242, 203, 130, .85);
     color: rgb(33, 113, 155);
     padding: 15px;
     font-family: 'Roboto Condensed', sans-serif;
-    font-style: italic;
 }
 #heading {
     padding: 20px 40px 10px 40px;
 }
 
 #photo-info {
-	color: white;
+    color: rgb(33, 113, 155);
 }
 
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(33, 113, 155);
 }
 
 img {
@@ -61,6 +59,8 @@ img {
     border: 3px dotted white;
     justify-content: space-between;
     grid-template-columns: 2fr 2fr;
+    font-size: 17px;
+    padding: 10px;
 }
 
 #contact-info {
