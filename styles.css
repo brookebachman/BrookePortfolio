@@ -82,16 +82,15 @@ img {
 		width: 100vw;
 		font-family: 'Hind Siliguri', sans-serif;
 		color: white;
-	}
+    }
+    
 	#bio-body {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
-		grid-template-rows: 1fr 3fr;
+		grid-template-rows: 1fr 5fr;
 		grid-template-areas:
 			'top top top'
 			'bio blogs projects';
-			
-        border: 10px solid pink;
         padding: 10px;
 	}
 
@@ -101,33 +100,36 @@ img {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr;
 		grid-template-areas: 'name location links links';
-		border: 5px solid black;
     }
 
     #bio-title {
-		grid-area: bio;
+        grid-area: bio;
+        margin: 10px;
 	}
 
     #mid-first {
-        background-color:rgb(10, 87, 128);
+        background-color:#47a899;
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
         transition: 0.4s;
+        margin: 10px;
     }
 
     #blog-card {
-        background-color:rgb(128, 10, 114);
+        background-color:#c7e6aa;
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
         transition: 0.4s;
         color: white;
         grid-area: blogs;
+        margin: 10px;
     }
 
     #project-card{
-        background-color:rgb(10, 120, 128);
+        background-color:rgb(211, 107, 140);
         box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
         transition: 0.4s;
         color: white;
         grid-area: projects;
+        margin: 10px;
     }
 
     #contact-info {
@@ -135,7 +137,6 @@ img {
         border: none;
         border: 4px solid blue;
     }
-    
     
 	#name {
 		grid-area: name;
@@ -152,14 +153,6 @@ img {
 
 	#brooke-details {
 		grid-area: location;
-	}
-
-	#heading {
-		grid-area: top;
-		color: white;
-		border: 2px solid green;
-		color: white;
-		font-size: 12px;
 	}
 
 	#navBar {
