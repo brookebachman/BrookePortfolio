@@ -28,8 +28,8 @@ body {
 	background-color: rgb(242, 203, 130, 0.85);
 	color: rgb(33, 113, 155);
 	padding: 15px;
-    font-family: 'Roboto Condensed', sans-serif;
-    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+	font-family: 'Roboto Condensed', sans-serif;
+	box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.4s;
 }
 #heading {
@@ -82,73 +82,79 @@ img {
 		width: 100vw;
 		font-family: 'Hind Siliguri', sans-serif;
 		color: white;
-    }
-    
+	}
+
 	#bio-body {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
-		grid-template-rows: 1fr 5fr;
+		grid-template-rows: 1fr 6fr;
 		grid-template-areas:
 			'top top top'
 			'bio blogs projects';
-        padding: 10px;
+		padding: 10px;
 	}
 
 	#top-grid {
 		grid-area: top;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-template-rows: 1fr;
-		grid-template-areas: 'name location links links';
-    }
-
-    #bio-title {
-        grid-area: bio;
-        margin: 10px;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-areas: 'name link1 link2 link3 link4';
 	}
 
-    #mid-first {
-        background-color:#47a899;
-        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-        transition: 0.4s;
-        margin: 10px;
-    }
+	#bio-title {
+		grid-area: bio;
+		margin: 10px;
+	}
 
-    #blog-card {
-        background-color:#c7e6aa;
-        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-        transition: 0.4s;
-        color: white;
-        grid-area: blogs;
-        margin: 10px;
-    }
+	#mid-first {
+		background-color: #47a899;
+		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.4s;
+		margin: 10px;
+	}
 
-    #project-card{
-        background-color:rgb(211, 107, 140);
-        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-        transition: 0.4s;
-        color: white;
-        grid-area: projects;
-        margin: 10px;
-    }
+	#blog-card {
+		background-color: #c7e6aa;
+		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.4s;
+		color: white;
+		grid-area: blogs;
+		margin: 10px;
+	}
 
-    #contact-info {
-		grid-area: links;
-        border: none;
-        border: 4px solid blue;
+	#project-card {
+		background-color: rgb(211, 107, 140);
+		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.4s;
+		color: white;
+		grid-area: projects;
+		margin: 10px;
+	}
+
+	#contact {
+		grid-area: link1;
+	}
+	#youtube {
+		grid-area: link2;
+	}
+	#github {
+		grid-area: link3;
     }
     
+    #linkedin {
+        grid-area: link4;
+    }
+
 	#name {
 		grid-area: name;
-    }
-    #pic-div {
-        grid-area: pic;
-    }
+	}
+	#pic-div {
+		grid-area: pic;
+	}
 	#pic {
-        border-radius: 50%;
-        height: 170px;
-        width: 155px;
-	
+		border-radius: 50%;
+		height: 170px;
+		width: 155px;
 	}
 
 	#brooke-details {
@@ -161,14 +167,18 @@ img {
 		font-size: 12px;
 	}
 
+	.nav-items {
+		color: rgb(33, 113, 155);
+	}
 	#project-video {
 		grid-area: video;
-		border: 2px solid blue;
 		color: white;
 		font-size: 12px;
 	}
+	#github {
+		color: rgb(33, 113, 155);
+	}
 	a {
-		color: white;
 		text-decoration: none;
 	}
 }
