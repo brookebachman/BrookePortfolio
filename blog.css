@@ -79,25 +79,6 @@ a {
 			'topics blog1 blog2 blog3 blog4 blog4';
 			font-family: 'Hind Siliguri', sans-serif;
     }
-    /* #top-row {
-		grid-area: title;
-	display:grid;
-	   grid-template-rows: 1fr;
-	   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	   grid-template-areas: 'title1 Go topic1 topic2 topic3 topic4';
-    }
-    #main-title {
-        grid-area: title1;
-    }
-    #navBar {
-		padding: 10px;
-	}
-	#jobS {
-		grid-area: topic1;
-	}
-	#code {
-		grid-area: topic2;
-	} */
 
 	#personal {
 		grid-area: topic3;
@@ -129,12 +110,13 @@ a {
     }
 
 	.date {
+		padding: 20px;
 		text-align: left;
 		font-size: 20px;
 	}
 
 	#blog1-content {
-		padding: 10px 40px;
+		padding: 10px 50px;
 		font-size: 18px;
 	}
 	#go-to {
@@ -146,6 +128,7 @@ a {
 	#blogLayout {
 		display: flex;
 		flex-direction: column;
+		padding: 10px 20px;
 	}
 	#similar-title {
 		font-size: 18px;
