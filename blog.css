@@ -75,19 +75,37 @@ a {
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		grid-template-rows: 1fr 6fr;
 		grid-template-areas:
-			'title title title link1 link2'
+			'title title title title link1 link2'
 			'topics blog1 blog2 blog3 blog4 blog4';
     }
-    #top-row {
-        
+    /* #top-row {
+		grid-area: title;
+	display:grid;
+	   grid-template-rows: 1fr;
+	   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	   grid-template-areas: 'title1 Go topic1 topic2 topic3 topic4';
     }
     #main-title {
-        grid-area: title;
-        
+        grid-area: title1;
     }
     #navBar {
+		padding: 10px;
+	}
+	#jobS {
+		grid-area: topic1;
+	}
+	#code {
+		grid-area: topic2;
+	} */
 
-    }
+	#personal {
+		grid-area: topic3;
+	}
+
+	#birth {
+		grid-area: topic4;
+	}
+
 	.card {
 		background-color: rgb(242, 125, 105);
 		padding-top: 10px;
@@ -117,5 +135,10 @@ a {
 	#blog1-content {
 		padding: 10px 205px;
 		font-size: 18px;
+	}
+	#go-to {
+		font-style: italic;
+		font-size: 17px;
+		grid-area: Go;
 	}
 }
