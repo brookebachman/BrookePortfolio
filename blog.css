@@ -134,12 +134,17 @@ a {
 	}
 
 	#blog1-content {
-		padding: 10px 205px;
+		padding: 10px 40px;
 		font-size: 18px;
 	}
 	#go-to {
 		font-style: italic;
 		font-size: 17px;
 		grid-area: Go;
+	}
+
+	#blogLayout {
+		display: flex;
+		flex-direction: column;
 	}
 }
