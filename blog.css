@@ -77,6 +77,7 @@ a {
 		grid-template-areas:
 			'title title title title link1 link2'
 			'topics blog1 blog2 blog3 blog4 blog4';
+			font-family: 'Hind Siliguri', sans-serif;
     }
     /* #top-row {
 		grid-area: title;
