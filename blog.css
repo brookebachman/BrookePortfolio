@@ -70,6 +70,10 @@ a {
 }
 
 @media (min-width: 800px) {
+	#baby-main {
+		background-color: rgb(242, 203, 130, 0.75);
+		padding: 10px;
+	}
 	#content {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -78,6 +82,7 @@ a {
 			'title title title title link1 link2'
 			'topics blog1 blog2 blog3 blog4 blog4';
 		font-family: 'Hind Siliguri', sans-serif;
+	
 	}
 
 	#personal {
