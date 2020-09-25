@@ -49,18 +49,7 @@ img {
 	height: 335px;
 	width: 250px;
 }
-#navContainer {
-	padding: 0px 40px 40px 40px;
-}
 
-#navBar {
-	display: grid;
-	border: 3px dotted white;
-	justify-content: space-between;
-	grid-template-columns: 2fr 2fr;
-	font-size: 17px;
-	padding: 10px;
-}
 
 #contact-info {
 	margin-top: 10px;
