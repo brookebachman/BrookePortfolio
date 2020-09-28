@@ -138,7 +138,7 @@ img {
 		grid-area: location;
 	}
 
-	#navBar {
+	#Navbar{
 		color: white;
 		grid-area: nav;
 		font-size: 12px;
