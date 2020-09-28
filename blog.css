@@ -10,7 +10,7 @@ body {
 #main {
 	background-image: url('images/tile.jpg');
 	background-size: cover;
-	height: 2290px;
+	height: 100vh;
 	text-align: center;
 	width: 100vw;
 	margin-left: 0px;
