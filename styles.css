@@ -1,3 +1,8 @@
+@import 'bloghome_desktop.css';
+@import 'blog_home.css';
+@import 'project_home.css';
+
+
 html,
 body {
 	margin: 0;
@@ -73,11 +78,6 @@ img {
 		color: white;
 	}
 
-	#blog-content {
-		font-size: 16px;
-		padding: 20px;
-	}
-
 	#bio-body {
 		display: grid;
 		grid-template-columns: 1fr 2fr 2fr;
@@ -85,7 +85,7 @@ img {
 		grid-template-areas:
 			'top top top'
 			'bio blogs projects';
-		padding: 10px;
+		padding: 7px;
 	}
 
 	#top-grid {
@@ -104,24 +104,6 @@ img {
 		background-color: #47a899;
 		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
 		transition: 0.4s;
-		margin: 10px;
-	}
-
-	#blog-card {
-		background-color: rgb(211, 107, 140);
-		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-		transition: 0.4s;
-		color: white;
-		grid-area: blogs;
-		margin: 10px;
-	}
-
-	#project-card {
-		background-color: rgb(211, 107, 140);
-		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
-		transition: 0.4s;
-		color: white;
-		grid-area: projects;
 		margin: 10px;
 	}
 
