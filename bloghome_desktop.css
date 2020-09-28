@@ -1,0 +1,104 @@
+@media (min-width: 800px) {
+	#baby-main {
+		background-color: rgb(242, 203, 130, 0.75);
+		padding: 5px;
+	}
+	#content {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 6fr;
+		grid-template-areas:
+			'title title title title link1 link2'
+			'topics blog1 blog2 blog3 blog4 blog4';
+		font-family: 'Hind Siliguri', sans-serif;
+	}
+
+	#personal {
+		grid-area: topic3;
+	}
+
+	#birth {
+		grid-area: topic4;
+	}
+
+	.card {
+		background-color: rgb(191, 70, 70);
+		padding: 12px;
+		box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.4s;
+	}
+	#card1 {
+		grid-area: blog1;
+	}
+	#card2 {
+		grid-area: blog2;
+	}
+	#card3 {
+		grid-area: blog3;
+	}
+
+	.title {
+		font-size: 17px;
+	}
+
+	.date {
+		padding: 10px;
+		text-align: left;
+		font-size: 15px;
+	}
+
+	#blog1-content {
+		padding: 10px 50px;
+		font-size: 18px;
+	}
+	#go-to {
+		font-style: italic;
+		font-size: 17px;
+		grid-area: Go;
+	}
+
+	#blogLayout {
+		display: flex;
+		flex-direction: column;
+		padding: 5px 15px;
+	}
+	#similar-title {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	#similar {
+		display: flex;
+		justify-content: space-around;
+		font-size: 16px;
+		font-weight: bold;
+		padding-bottom: 10px;
+	}
+	.desc {
+		font-size: 15px;
+	}
+
+	#main {
+		height: 100vh;
+		width: 100vw;
+	}
+	#content {
+		background-color: rgb(232, 186, 145, 0.75);
+		margin: 15px;
+		padding: 10px;
+		height: 100vh;
+		width: 100vw;
+	}
+	img {
+		height: 30vh;
+		width: 11vw;
+	}
+	Navbar {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+}
